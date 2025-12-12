@@ -1,4 +1,3 @@
-
 GUI
 DELAY 750
 STRING chrome
