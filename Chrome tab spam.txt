@@ -1,5 +1,5 @@
 WHILE TRUE
-	STRING Chrome
-	STRING Chrome
-	STRING Chrome
+	CTRL t
+	CTRL t
+	CTRL t
 END_WHILE
