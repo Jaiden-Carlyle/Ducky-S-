@@ -1,0 +1,65 @@
+LABEL wifi_toggle
+	ALT SHIFT S
+	DELAY 300
+	TAB
+	TAB
+	TAB
+	ENTER
+	ALT SHIFT S
+RETURN
+
+CTRL t
+ALT d
+STRING https://my.nextdns.io/login
+ENTER
+wifi_toggle
+DELAY 1500
+CTRL r
+TAB
+STRING diddyblud445@gmail.com
+TAB
+STRING password
+ENTER
+DELAY 1500
+REPEAT 14
+TAB
+END_REPEAT
+ENTER
+wifi_toggle
+CTRL t
+ALT d
+STRING chrome://network
+DELAY 500
+TAB
+RIGHTARROW
+RIGHTARROW
+RIGHTARROW
+RIGHTARROW
+TAB
+wifi_toggle
+ENTER
+
+
+REM Add additional TABs below to select the network you want, you can determine how many TABs you need by simply counting each move down the list you need to make to get to your network, by default, this is the first network in your list.
+
+TAB
+
+
+ENTER
+TAB
+TAB
+TAB
+DOWNARROW
+DOWNARROW
+TAB
+BACKSPACE
+45.90.28.108
+ENTER
+TAB
+TAB
+TAB
+TAB
+ENTER
+CTRL w
+CTRL w
+CTRL t
